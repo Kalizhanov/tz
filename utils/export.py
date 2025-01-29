@@ -22,7 +22,7 @@ def export_statement(data) -> None:
         "ST_CREATION_DATE": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "ST_MODIFIED_DATE": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "ST_SUBJECT": "Банковская выписка",
-        "ST_AUTHOR": "Система",
+        "ST_AUTHOR": "Галымжан",
         "ST_TITLE": "Банковская выписка",
         "ST_PRODUCER": "KaspiBank"
     } for detail in data.details])
